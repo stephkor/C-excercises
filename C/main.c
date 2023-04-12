@@ -1,45 +1,36 @@
-//
-//  main.c
-//  C
-//
-//  Created by 한수민 on 2023/03/31.
-//
+
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
-//int main(int argc, const char * argv[]) {
-//    // insert code here...
-//    printf("Hello, World!\n");
-//    return 0;
-//}
+
 
 // 구구단
-//void gugudan(int su);
-//
-// int main() {
-//
-//   int dan = 1;
-//
-//   gugudan(dan);
-// }
-//
-// void gugudan(int su) {
-//   int i;
-//    while(su < 10) {
-//      su++;
-//      for (i = 1; i <= 9; i++)
-//      {
-//
-//        printf("%d * %d = %d\n", su, i, su * i);
-//   }
-//    }
-//   }
+void gugudan(int su);
+
+int main() {
+
+   int dan = 1;
+
+   gugudan(dan);
+}
+
+void gugudan(int su) {
+   int i;
+    while(su < 10) {
+      su++;
+      for (i = 1; i <= 9; i++)
+      {
+
+        printf("%d * %d = %d\n", su, i, su * i);
+      }
+    }
+ }
 
 
 
-////대각선 하트
+// 대각선 하트
 //  int main(){
 //   int x, y;
 //   for (x = 1; x <= 5; x++) {
@@ -112,7 +103,7 @@
 
 
 
-//로또만들기
+//로또번호 생성기
 
 //void SelectionSort(int arr[], int n)
 //{
