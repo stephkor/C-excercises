@@ -42,6 +42,7 @@
 		33E2F13729D6C01E00E5032C = {
 			isa = PBXGroup;
 			children = (
+				3346254029E67646001A1A76 /* .gitignore */,
 				33E2F14229D6C01E00E5032C /* C */,
 				33E2F14129D6C01E00E5032C /* Products */,
 			);
@@ -59,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				33E2F14329D6C01E00E5032C /* main.c */,
-				3346254029E67646001A1A76 /* .gitignore */,
 			);
 			path = C;
 			sourceTree = "<group>";
